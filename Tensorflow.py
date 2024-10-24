@@ -11,3 +11,5 @@ print(y)
 z = tf.ones((2,3))
 print(z)
 
+s = tf.eye(3)
+print(s)
