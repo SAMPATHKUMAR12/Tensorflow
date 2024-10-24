@@ -13,3 +13,12 @@ print(z)
 
 s = tf.eye(3)
 print(s)
+
+k = tf.random.uniform((1,3), minval=0, maxval=1)
+print(k)
+
+m =tf.range(10, delta=2)
+print(m)
+
+x= tf.cast(x, dtype=tf.float64)
+print(x)
